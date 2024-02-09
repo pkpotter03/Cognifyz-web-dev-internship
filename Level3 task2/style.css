@@ -1,0 +1,151 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f8f9fa; /* Light Gray */
+    color: #343a40; /* Dark Gray */
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 0 20px; /* Added padding to match the reference page */
+}
+
+header {
+    background-color: #F6F7FE; /* Change header background to #F6F7FE */
+    color: #343a40; /* Dark Gray */
+    padding: 20px 0;
+    text-align: center;
+}
+
+
+.logo {
+    float: left; /* Float the logo to the left */
+    width: 100px; /* Set the width of the logo to 100px */
+    margin-right: 10px;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 24px;
+    color: #513EF4; /* Update heading color to #513EF4 */
+}
+
+main {
+    background-color: #FFFFFF; /* Change main background to #F6F7FE */
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* Additional styles remain the same */
+
+.introduction h2,
+.container h2,
+.qualifications h2{
+    text-align: center; /* Center-align the headings */
+}
+
+
+section {
+    margin-bottom: 30px;
+}
+
+h2 {
+    color: #343a40; /* Dark Gray */
+}
+
+.introduction p {
+    color: #555; /* Medium Gray */
+}
+
+.highlights ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.highlights li {
+    margin-bottom: 10px;
+}
+
+.cta {
+    text-align: center;
+}
+
+.cta-button {
+    display: inline-block;
+    padding: 12px 30px;
+    background-color: #007bff; /* Blue */
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.cta-button:hover {
+    background-color: #0056b3; /* Darker Blue */
+}
+
+footer {
+    background-color: #343a40; /* Dark Gray */
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+}
+/* CSS styles remain the same */
+
+.highlights {
+    display: flex;
+    justify-content: space-around;
+    align-items: stretch;
+    flex-wrap: wrap;
+}
+
+.highlight-item {
+    text-align: center;
+    margin-bottom: 20px;
+    flex: 1;
+}
+
+.highlight-item p {
+    margin-bottom: 20px; /* Add margin between text and images */
+}
+
+
+.highlight-item img {
+    width: 200px;
+    height: 200px;
+    margin-bottom: 10px;
+    object-fit: cover;
+}
+.qualifications p{
+    text-align: center;
+    margin-bottom: 10px;
+}
+.qualifications-list {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0px;
+}      
+
+.cta p {
+    margin-top: 20px;
+}
+
+.social-links {
+    list-style-type: none;
+    padding: 0;
+    margin-top: 10px;
+}
+
+.social-links li {
+    display: inline-block;
+    margin-right: 10px;
+}
+
+.social-links li:last-child {
+    margin-right: 0;
+}
